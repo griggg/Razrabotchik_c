@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+enum MessageType {
+    INTEGRATION_TASK   = 0;
+    INTEGRATION_RESULT = 1;
+    START_INTEGRATION  = 2;
+}
+
+message Envelope {
+    MessageType type = 1;
+    bytes payload    = 2;
+}
+
+message IntegrationTask {
+    double left  = 1;
+    double right = 2;
+    double step  = 3;
+}
+
+message IntegrationTaskResult {
+    double res = 1;
+}

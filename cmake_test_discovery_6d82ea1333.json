@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "IntegratorTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "SimpleTest",
+          "file": "\/home\/egor\/untitled5\/tests\/test_integrator.cpp",
+          "line": 6
+        }
+      ]
+    }
+  ]
+}

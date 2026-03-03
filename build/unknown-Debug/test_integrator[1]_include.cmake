@@ -1,0 +1,5 @@
+if(EXISTS "/home/egor/untitled5/build/unknown-Debug/test_integrator[1]_tests.cmake")
+  include("/home/egor/untitled5/build/unknown-Debug/test_integrator[1]_tests.cmake")
+else()
+  add_test(test_integrator_NOT_BUILT test_integrator_NOT_BUILT)
+endif()

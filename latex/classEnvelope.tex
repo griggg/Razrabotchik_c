@@ -1,0 +1,201 @@
+\doxysection{Envelope Class Reference}
+\hypertarget{classEnvelope}{}\label{classEnvelope}\index{Envelope@{Envelope}}
+
+
+Inheritance diagram for Envelope\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classEnvelope__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Envelope\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classEnvelope__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classEnvelope_1_1__Internal}{\+\_\+\+Internal}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classEnvelope_a21ce855a10f50760e6ce85a958f11724}\label{classEnvelope_a21ce855a10f50760e6ce85a958f11724} 
+enum \+: int \{ {\bfseries k\+Payload\+Field\+Number} = 2
+, {\bfseries k\+Type\+Field\+Number} = 1
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classEnvelope_aaa7fad985ced47bcc942f2259b69e9b0}\label{classEnvelope_aaa7fad985ced47bcc942f2259b69e9b0} 
+PROTOBUF\+\_\+\+CONSTEXPR {\bfseries Envelope} (\+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::internal\+::\+Constant\+Initialized)
+\item 
+\Hypertarget{classEnvelope_adec015d1e11dc123fb81ff189f997744}\label{classEnvelope_adec015d1e11dc123fb81ff189f997744} 
+{\bfseries Envelope} (const \mbox{\hyperlink{classEnvelope}{Envelope}} \&from)
+\item 
+\Hypertarget{classEnvelope_acabf7c5508994e99f83986ae8145726e}\label{classEnvelope_acabf7c5508994e99f83986ae8145726e} 
+{\bfseries Envelope} (\mbox{\hyperlink{classEnvelope}{Envelope}} \&\&from) noexcept
+\item 
+\Hypertarget{classEnvelope_a3e25ba14ef5311a8011e6ffd4e92d380}\label{classEnvelope_a3e25ba14ef5311a8011e6ffd4e92d380} 
+\mbox{\hyperlink{classEnvelope}{Envelope}} \& {\bfseries operator=} (const \mbox{\hyperlink{classEnvelope}{Envelope}} \&from)
+\item 
+\Hypertarget{classEnvelope_a47929ef62440f88a0adbe6cc534c0742}\label{classEnvelope_a47929ef62440f88a0adbe6cc534c0742} 
+\mbox{\hyperlink{classEnvelope}{Envelope}} \& {\bfseries operator=} (\mbox{\hyperlink{classEnvelope}{Envelope}} \&\&from) noexcept
+\item 
+\Hypertarget{classEnvelope_a73caf318b0cf9370c7e0e14c727fbea5}\label{classEnvelope_a73caf318b0cf9370c7e0e14c727fbea5} 
+void {\bfseries Swap} (\mbox{\hyperlink{classEnvelope}{Envelope}} \texorpdfstring{$\ast$}{*}other)
+\item 
+\Hypertarget{classEnvelope_afe530a36e755361ee451e35a50d11a9c}\label{classEnvelope_afe530a36e755361ee451e35a50d11a9c} 
+void {\bfseries Unsafe\+Arena\+Swap} (\mbox{\hyperlink{classEnvelope}{Envelope}} \texorpdfstring{$\ast$}{*}other)
+\item 
+\Hypertarget{classEnvelope_a96410f01246a00c0aa83debc3e450cce}\label{classEnvelope_a96410f01246a00c0aa83debc3e450cce} 
+\mbox{\hyperlink{classEnvelope}{Envelope}} \texorpdfstring{$\ast$}{*} {\bfseries New} (\+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Arena \texorpdfstring{$\ast$}{*}arena=nullptr) const final
+\item 
+\Hypertarget{classEnvelope_a5564eb8869435d653e0482ede7295304}\label{classEnvelope_a5564eb8869435d653e0482ede7295304} 
+void {\bfseries Copy\+From} (const \mbox{\hyperlink{classEnvelope}{Envelope}} \&from)
+\item 
+\Hypertarget{classEnvelope_a1dafdeca0458ee93ddb6663b3125221b}\label{classEnvelope_a1dafdeca0458ee93ddb6663b3125221b} 
+void {\bfseries Merge\+From} (const \mbox{\hyperlink{classEnvelope}{Envelope}} \&from)
+\item 
+\Hypertarget{classEnvelope_ad2da948a970836bc93805155ac3294de}\label{classEnvelope_ad2da948a970836bc93805155ac3294de} 
+PROTOBUF\+\_\+\+ATTRIBUTE\+\_\+\+REINITIALIZES void {\bfseries Clear} () final
+\item 
+\Hypertarget{classEnvelope_a70bc080341316a248cc840eebfc9b869}\label{classEnvelope_a70bc080341316a248cc840eebfc9b869} 
+bool {\bfseries Is\+Initialized} () const final
+\item 
+\Hypertarget{classEnvelope_a7b17aa7808db87a181c7085f54b4ee1a}\label{classEnvelope_a7b17aa7808db87a181c7085f54b4ee1a} 
+size\+\_\+t {\bfseries Byte\+Size\+Long} () const final
+\item 
+\Hypertarget{classEnvelope_ab4541cc5236d4256ee6876d5f3890b1f}\label{classEnvelope_ab4541cc5236d4256ee6876d5f3890b1f} 
+const char \texorpdfstring{$\ast$}{*} {\bfseries \+\_\+\+Internal\+Parse} (const char \texorpdfstring{$\ast$}{*}ptr, \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::internal\+::\+Parse\+Context \texorpdfstring{$\ast$}{*}ctx) final
+\item 
+\Hypertarget{classEnvelope_a2f69e987a63577ff7343667ecb580ed5}\label{classEnvelope_a2f69e987a63577ff7343667ecb580ed5} 
+uint8\+\_\+t \texorpdfstring{$\ast$}{*} {\bfseries \+\_\+\+Internal\+Serialize} (uint8\+\_\+t \texorpdfstring{$\ast$}{*}target, \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::io\+::\+Eps\+Copy\+Output\+Stream \texorpdfstring{$\ast$}{*}stream) const final
+\item 
+\Hypertarget{classEnvelope_aac3d16162680649ca664ca9979ade712}\label{classEnvelope_aac3d16162680649ca664ca9979ade712} 
+int {\bfseries Get\+Cached\+Size} () const final
+\item 
+\Hypertarget{classEnvelope_acdd6dde2fefc5f7490402dc246aba4f0}\label{classEnvelope_acdd6dde2fefc5f7490402dc246aba4f0} 
+const \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Message\+::\+Class\+Data \texorpdfstring{$\ast$}{*} {\bfseries Get\+Class\+Data} () const final
+\item 
+\Hypertarget{classEnvelope_a26e0d1ecf80d3d7d15ce9a1dad5c06f5}\label{classEnvelope_a26e0d1ecf80d3d7d15ce9a1dad5c06f5} 
+\+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Metadata {\bfseries Get\+Metadata} () const final
+\item 
+\Hypertarget{classEnvelope_a6b6b3463c76453815c0a1a9fe00c8112}\label{classEnvelope_a6b6b3463c76453815c0a1a9fe00c8112} 
+void {\bfseries clear\+\_\+payload} ()
+\item 
+\Hypertarget{classEnvelope_ae144f96be630c781ea5240fef14767de}\label{classEnvelope_ae144f96be630c781ea5240fef14767de} 
+const std\+::string \& {\bfseries payload} () const
+\item 
+\Hypertarget{classEnvelope_a5aa076e2749c4f39157d23a83f95db7c}\label{classEnvelope_a5aa076e2749c4f39157d23a83f95db7c} 
+{\footnotesize template$<$typename Arg\+T0  = const std\+::string\&, typename... ArgT$>$ }\\void {\bfseries set\+\_\+payload} (Arg\+T0 \&\&arg0, Arg\+T... args)
+\item 
+\Hypertarget{classEnvelope_ab6bd24c2589b71d9c6984cf7875125b5}\label{classEnvelope_ab6bd24c2589b71d9c6984cf7875125b5} 
+std\+::string \texorpdfstring{$\ast$}{*} {\bfseries mutable\+\_\+payload} ()
+\item 
+\Hypertarget{classEnvelope_a9223f9c0741aac566d067c83ec63ae7c}\label{classEnvelope_a9223f9c0741aac566d067c83ec63ae7c} 
+PROTOBUF\+\_\+\+NODISCARD std\+::string \texorpdfstring{$\ast$}{*} {\bfseries release\+\_\+payload} ()
+\item 
+\Hypertarget{classEnvelope_a0813f061c1e09cfa83e3182865d2ce10}\label{classEnvelope_a0813f061c1e09cfa83e3182865d2ce10} 
+void {\bfseries set\+\_\+allocated\+\_\+payload} (std\+::string \texorpdfstring{$\ast$}{*}payload)
+\item 
+\Hypertarget{classEnvelope_a25d0f4d46c0d3e0950c6852159362bc7}\label{classEnvelope_a25d0f4d46c0d3e0950c6852159362bc7} 
+void {\bfseries clear\+\_\+type} ()
+\item 
+\Hypertarget{classEnvelope_a6af7f17385af8d3fd4070a8ec7f0fd47}\label{classEnvelope_a6af7f17385af8d3fd4070a8ec7f0fd47} 
+\+::\+Message\+Type {\bfseries type} () const
+\item 
+\Hypertarget{classEnvelope_abfd7716abfa16e713c9bff55eb4c096b}\label{classEnvelope_abfd7716abfa16e713c9bff55eb4c096b} 
+void {\bfseries set\+\_\+type} (\+::\+Message\+Type value)
+\item 
+\Hypertarget{classEnvelope_a5274ced3ac6b679baaa7d172fe635222}\label{classEnvelope_a5274ced3ac6b679baaa7d172fe635222} 
+{\footnotesize template$<$typename Arg\+T0 , typename... ArgT$>$ }\\PROTOBUF\+\_\+\+ALWAYS\+\_\+\+INLINE void {\bfseries set\+\_\+payload} (Arg\+T0 \&\&arg0, Arg\+T... args)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classEnvelope_a1de1aa0e98bf0653764f8215dbbdd256}\label{classEnvelope_a1de1aa0e98bf0653764f8215dbbdd256} 
+static const \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Descriptor \texorpdfstring{$\ast$}{*} {\bfseries descriptor} ()
+\item 
+\Hypertarget{classEnvelope_af78eb49074bfe9ff5846dce3dba95e03}\label{classEnvelope_af78eb49074bfe9ff5846dce3dba95e03} 
+static const \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Descriptor \texorpdfstring{$\ast$}{*} {\bfseries Get\+Descriptor} ()
+\item 
+\Hypertarget{classEnvelope_a4c0368f557af54421616f8a08ee47680}\label{classEnvelope_a4c0368f557af54421616f8a08ee47680} 
+static const \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Reflection \texorpdfstring{$\ast$}{*} {\bfseries Get\+Reflection} ()
+\item 
+\Hypertarget{classEnvelope_a0a09fab34a897553ada7e6351918200e}\label{classEnvelope_a0a09fab34a897553ada7e6351918200e} 
+static const \mbox{\hyperlink{classEnvelope}{Envelope}} \& {\bfseries default\+\_\+instance} ()
+\item 
+\Hypertarget{classEnvelope_a8ba24d3b7ec929d5d2185da745893bc4}\label{classEnvelope_a8ba24d3b7ec929d5d2185da745893bc4} 
+static const \mbox{\hyperlink{classEnvelope}{Envelope}} \texorpdfstring{$\ast$}{*} {\bfseries internal\+\_\+default\+\_\+instance} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr int \mbox{\hyperlink{classEnvelope_afd2791f26388cf64ecaddd3f57964df4}{k\+Index\+In\+File\+Messages}}
+\item 
+static const Class\+Data \mbox{\hyperlink{classEnvelope_ae01f7fb9bcdffbd7a2afce9eab0353f8}{\+\_\+class\+\_\+data\+\_\+}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classEnvelope_af438af81020ce3f81a1a296fba650109}\label{classEnvelope_af438af81020ce3f81a1a296fba650109} 
+{\bfseries Envelope} (\+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Arena \texorpdfstring{$\ast$}{*}arena, bool is\+\_\+message\+\_\+owned=false)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classEnvelope_a9b35d94da3444084fc3673b7717b6cfe}\label{classEnvelope_a9b35d94da3444084fc3673b7717b6cfe} 
+class {\bfseries \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::internal\+::\+Any\+Metadata}
+\item 
+\Hypertarget{classEnvelope_ab618dbbac4a8d749da0d85c32932df36}\label{classEnvelope_ab618dbbac4a8d749da0d85c32932df36} 
+{\footnotesize template$<$typename T $>$ }\\class {\bfseries \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Arena\+::\+Internal\+Helper}
+\item 
+\Hypertarget{classEnvelope_af8d2ab211b93503b66efabea06c4d78a}\label{classEnvelope_af8d2ab211b93503b66efabea06c4d78a} 
+struct {\bfseries \+::\+Table\+Struct\+\_\+msg\+\_\+2eproto}
+\item 
+\Hypertarget{classEnvelope_aeab6a0b064478a8334c88f8491db420a}\label{classEnvelope_aeab6a0b064478a8334c88f8491db420a} 
+void {\bfseries swap} (\mbox{\hyperlink{classEnvelope}{Envelope}} \&a, \mbox{\hyperlink{classEnvelope}{Envelope}} \&b)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classEnvelope_ae01f7fb9bcdffbd7a2afce9eab0353f8}\label{classEnvelope_ae01f7fb9bcdffbd7a2afce9eab0353f8} 
+\index{Envelope@{Envelope}!\_class\_data\_@{\_class\_data\_}}
+\index{\_class\_data\_@{\_class\_data\_}!Envelope@{Envelope}}
+\doxysubsubsection{\texorpdfstring{\_class\_data\_}{\_class\_data\_}}
+{\footnotesize\ttfamily const \+::\+PROTOBUF\+\_\+\+NAMESPACE\+\_\+\+ID\+::\+Message\+::\+Class\+Data Envelope\+::\+\_\+class\+\_\+data\+\_\+\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ ::PROTOBUF\_NAMESPACE\_ID::Message::CopyWithSourceCheck,}
+\DoxyCodeLine{\ \ \ \ Envelope::MergeImpl}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\Hypertarget{classEnvelope_afd2791f26388cf64ecaddd3f57964df4}\label{classEnvelope_afd2791f26388cf64ecaddd3f57964df4} 
+\index{Envelope@{Envelope}!kIndexInFileMessages@{kIndexInFileMessages}}
+\index{kIndexInFileMessages@{kIndexInFileMessages}!Envelope@{Envelope}}
+\doxysubsubsection{\texorpdfstring{kIndexInFileMessages}{kIndexInFileMessages}}
+{\footnotesize\ttfamily constexpr int Envelope\+::k\+Index\+In\+File\+Messages\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\ \ \ \ 0}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+msg.\+pb.\+h\item 
+msg.\+pb.\+cc\end{DoxyCompactItemize}
