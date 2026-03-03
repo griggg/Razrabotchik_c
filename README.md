@@ -42,8 +42,8 @@ vcpkg install boost protobuf
 
 ```bash
 # Клонировать репозиторий
-git clone <repo-url>
-cd <repo-dir>
+git clone https://github.com/griggg/Razrabotchik_c
+cd Razrabotchik_c
 
 # Сконфигурировать
 cmake -B build -DCMAKE_BUILD_TYPE=Release
